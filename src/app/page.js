@@ -765,7 +765,7 @@ import {
   DialogActions,
   Button,
 } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+// import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const NASA_API_KEY = 'yNzMOSNiEo9ffO3Ps6etkAQ4T2S5oKu1YrVmYtLU';
 
@@ -992,9 +992,9 @@ function App() {
       <Box sx={{ width: '25%', backgroundColor: '#1c1c1c', padding: 2, color: 'white', overflowY: 'auto' }}>
         <Typography variant="h6">Orrery Controls</Typography>
         <Accordion>
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>``
+          {/* <AccordionSummary expandIcon={<ExpandMoreIcon />}>``
             <Typography>Visibility Settings</Typography>
-          </AccordionSummary>
+          </AccordionSummary> */}
           <AccordionDetails>
             <Typography>Toggle Orbits:</Typography>
             <Checkbox
