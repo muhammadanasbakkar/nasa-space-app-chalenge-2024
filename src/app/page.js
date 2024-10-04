@@ -50,7 +50,7 @@
 //       }
 //       return points;
 //     };
-
+// spase
 //     // Add stars in the background
 //     const addStars = (count) => {
 //       const starGeometry = new THREE.BufferGeometry();
